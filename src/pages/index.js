@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
-import "./index.module.css";
+// import "./index.module.css";
 import styled from "@emotion/styled";
 
 import {

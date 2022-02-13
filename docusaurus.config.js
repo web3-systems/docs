@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Web3 Systems",
+  title: "🧪 Web3 Systems",
   tagline: "Documentation and Guides",
   url: "https://web3-systems.github.io",
   baseUrl: "/",

@@ -1,7 +1,6 @@
 {
-  "name": "pooltogether",
+  "name": "@web3-systems/docs",
   "version": "0.0.0",
-  "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -9,10 +8,7 @@
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "serve": "docusaurus serve",
-    "clear": "docusaurus clear",
-    "add-deployments-category": "echo '{ \"label\": \"Deployments\", \"position\": 6 }' > docs/reference/deployments/_category_.json",
-    "gen-solidity-docs": "rm -rf docs/reference/core/** && yarn add-contracts-category && solidity-docgen --solc-module solc-0.8 -i node_modules/@pooltogether/v4/contracts -o docs/reference/core -t templates",
-    "gen-deployments": "rm -rf docs/reference/deployments/** && yarn add-deployments-category && ./scripts/generateDeployments.js"
+    "clear": "docusaurus clear"
   },
   "dependencies": {
     "@babel/core": "^7.14.6",
