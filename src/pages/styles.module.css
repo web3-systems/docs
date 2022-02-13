@@ -1,0 +1,89 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 960px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+@media screen and (min-width: 960px) {
+  :root {
+    --ifm-font-size-base: 17px;
+  }
+  article header h1 {
+    font-size: 2rem !important;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureImage {
+  height: 200px;
+  width: 200px;
+}
+
+
+.btn {
+  -webkit-appearance: none;
+  background: -webkit-gradient(to right,#a2ccb6 0%,#fceeb5 50%,#ee786e 100%);
+  background: linear-gradient(to right,#a2ccb6 0%,#fceeb5 50%,#ee786e 100%);
+  background-color: #FFF;
+  background-size: 500%;
+  border: none;
+  border-radius: 5rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  color: $white;
+  cursor: pointer;
+  font: 1.5em Raleway, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 5rem;
+  letter-spacing: .05em;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 20rem;
+}
+
+.btn:hover {
+  animation-name: gradient;
+  -webkit-animation-name: gradient;
+  animation-duration: 2s;
+  -webkit-animation-duration: s;
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+    
+/* @keyframes gradient {
+  0% 
+    background-position: 0% 50%
+  100%
+    background-position: 100% 
+}
+   */
