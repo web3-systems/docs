@@ -11,7 +11,7 @@
     "clear": "docusaurus clear"
   },
   "dependencies": {
-    "@babel/core": "^7.14.6",
+    "@babel/core": "^7.19.3",
     "@docusaurus/core": "^2.0.0-beta.1",
     "@docusaurus/plugin-content-docs": "^2.0.0-beta.1",
     "@docusaurus/preset-classic": "^2.0.0-beta.1",
